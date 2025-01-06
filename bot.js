@@ -3658,11 +3658,30 @@ function bancheck(token, channelid) {
 
             if (
                 cont.toLowerCase().includes("captcha") ||
-                cont
-                    .toLowerCase()
-                    .includes(
-                        "please complete your captcha to verify that you are human!"
-                    )
+                cont.toLowerCase().includes("ca​ptcha") ||
+                cont.toLowerCase().includes("cap​tcha") ||
+                cont.toLowerCase().includes("capt​cha") ||
+                cont.toLowerCase().includes("captc​ha") ||
+                cont.toLowerCase().includes("captch​a") ||
+                cont.toLowerCase().includes("c​a​ptcha") ||
+                cont.toLowerCase().includes("ca​p​tcha") ||
+                cont.toLowerCase().includes("cap​t​cha") ||
+                cont.toLowerCase().includes("capt​c​ha") ||
+                cont.toLowerCase().includes("captc​h​a") ||
+                cont.toLowerCase().includes("captch​a") ||
+                cont.toLowerCase().includes("b​an") ||
+                cont.toLowerCase().includes("ba​n") ||
+                cont.toLowerCase().includes("b​a​n") ||
+                cont.toLowerCase().includes("v​erify") ||
+                cont.toLowerCase().includes("ve​rify") ||
+                cont.toLowerCase().includes("ver​ify") ||
+                cont.toLowerCase().includes("veri​fy") ||
+                cont.toLowerCase().includes("verif​y") ||
+                cont.toLowerCase().includes("v​erif​y") ||
+                cont.toLowerCase().includes("ve​rif​y") ||
+                cont.toLowerCase().includes("ver​if​y") ||
+                cont.toLowerCase().includes("veri​f​y") ||
+                cont.toLowerCase().includes("verif​y")
             ) {
                 global.mainbanc = false;
                 console.clear();
